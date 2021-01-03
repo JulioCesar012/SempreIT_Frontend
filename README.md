@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./screenshots/logo.png" width="250px" />
+    <img alt="SempreIT" title="#SempreIT" src="./screenshots/logo.png" width="250px" />
 </h1>
 
 <h4 align="center">
@@ -62,7 +62,7 @@ O projeto foi desenvolvido com as seguintes tecnologias e depêndencias:
 
 Clone a aplicação com o git clone, siga os passos abaixo.
 
-Reposiórios individuais: 
+Reposiórios individuais:
 
 - [Backend][backend_github]
 - [Frontend][frontend_github]
