@@ -60,15 +60,20 @@ O projeto foi desenvolvido com as seguintes tecnologias e depêndencias:
 
 ## :information_source: Como usar
 
-Clone a aplicação com o git clone, siga os passos abaixo:
+Clone a aplicação com o git clone, siga os passos abaixo.
+
+Reposiórios individuais: 
+
+- [Backend][backend_github]
+- [Frontend][frontend_github]
 
 Em seu terminal na linha de comando:
 
 ### Instale a API Backend
 
 ```bash
-# Clone o repositório principal
-$ git clone https://github.com/JulioCesar012/projetoSempreIT.git
+# Clone o repositório
+$ git clone https://github.com/JulioCesar012/SempreIT_Backend
 
 # Vá para a pasta backend
 $ cd projetoSempreIT/backend
@@ -90,8 +95,8 @@ $ yarn start
 ### Instale o Front-end
 
 ```bash
-# Clone o repositório (se já clonou pule para o próximo passo)
-$ git clone https://github.com/JulioCesar012/projetoSempreIT.git
+# Clone o repositório
+$ git clone https://github.com/JulioCesar012/SempreIT_Frontend
 
 # Vá para a pasta frontend
 $ cd projetoSempreIT/frontend
@@ -134,4 +139,8 @@ Desenvolvido com ♥ por @JulioCesar012 :wave: [Me contate!](https://www.linkedi
 [cors]: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Controle_Acesso_CORS
 [jsonwebtoken]: https://jwt.io/
 [knex]: http://knexjs.org/
+
+[backend_github]: https://github.com/JulioCesar012/SempreIT_Backend
+[frontend_github]: https://github.com/JulioCesar012/SempreIT_Frontend
+
 [frontend]: https://github.com/axios/axios
