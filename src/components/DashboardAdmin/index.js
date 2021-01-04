@@ -12,7 +12,7 @@ const { Column } = Table;
 <DashboardUser />;
 
 export default class ReservationContent extends Component {
-  Url = "http://localhost:3333/products";
+  Url = "https://backendapisempreit.herokuapp.com/products";
 
   state = {
     products: [],
