@@ -14,7 +14,7 @@ const { Column } = Table;
 <TableProducts />;
 
 export default class ProductContent extends Component {
-  Url = "http://localhost:3333/products";
+  Url = "https://backendapisempreit.herokuapp.com/products";
 
   state = {
     products: [],
