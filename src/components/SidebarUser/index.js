@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 import { Menu } from "antd";
 import * as AntIcons from "@ant-design/icons";
@@ -11,7 +11,15 @@ function SidebarDashboard() {
   const showSidebar = () => setSidebar(!sidebar);
 
   const user_id = localStorage.getItem("user_id");
-
+  
+  const history = useHistory();
+  
+  function handleLogout() {
+    localStorage.clear();
+    
+    history.push('/');
+  }
+  
   return (
     <Menu
       mode="inline"
@@ -26,7 +34,7 @@ function SidebarDashboard() {
       </Menu.Item>
 
       <Menu.Item key="reservas" className="button_menu">
-        <Link to="/logout">
+        <Link to="/logout" onClick={handleLogout}>
           <AntIcons.LogoutOutlined />
           Logout
         </Link>
