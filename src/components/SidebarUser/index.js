@@ -13,12 +13,12 @@ function SidebarDashboard() {
   const user_id = localStorage.getItem("user_id");
   
   const history = useHistory();
-  
+
   function handleLogout() {
-    localStorage.clear();
-    
-    history.push('/');
-  }
+   localStorage.clear();
+
+   history.push('/');
+ }
   
   return (
     <Menu
@@ -27,7 +27,7 @@ function SidebarDashboard() {
       style={{ background: "#299767", color: "#fff", height: "100%" }}
     >
       <Menu.Item key="Dashboard" className="button_menu">
-        <Link to={`/dashboard_home/${user_id}`}>
+        <Link to={`/dashboard_user/${user_id}`}>
           <AntIcons.DashboardOutlined />
           Home
         </Link>
