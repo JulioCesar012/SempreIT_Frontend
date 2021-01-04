@@ -12,7 +12,7 @@ import TableUsers from "../TableUsers";
 <TableUsers />;
 
 export default class UsersContentList extends Component {
-  Url = "http://localhost:3333/users";
+  Url = "https://backendapisempreit.herokuapp.com/users";
 
   state = {
     users: [],
