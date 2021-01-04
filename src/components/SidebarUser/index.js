@@ -34,7 +34,7 @@ function SidebarDashboard() {
       </Menu.Item>
 
       <Menu.Item key="reservas" className="button_menu">
-        <Link to="/logout" onClick={handleLogout}>
+        <Link to="/" onClick={handleLogout}>
           <AntIcons.LogoutOutlined />
           Logout
         </Link>
